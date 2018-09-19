@@ -1,17 +1,11 @@
-html {
-    height: 100%;
-    /*background-color:#1D1C1C;*/
-    background-color:#00C1B5;
-}
-
 body {
-    height: 100%;
+    /*height: 100%;*/
     /*background-color:#00C1B5;*/
-    background-image: url("icons_images/Rectangle2.png");
-    background-repeat: repeat-y;
-    /*background: linear-gradient(to right, #00C1B5 250px , #1D1C1C 0%);*/
+    /*background-image: url("icons_images/Rectangle2.png");*/
+    /*background-repeat: repeat-y;*/
+    background: linear-gradient(to right, #00C1B5 25% , #1D1C1C 0%);
     /*text-align: center;*/
-    background-size: 20% auto;
+    /*background-size: 20% auto;*/
 }
 
 /*
@@ -63,10 +57,10 @@ p {
 }*/
 
 .mainpar {
-	/*margin-left: 400px;*/
-    /*text-align: center;*/
-    /*background: linear-gradient(to right, #00C1B5 250px , #1D1C1C 0%);*/
-    width: 70%;
+	margin-left: 25%;
+    /*text-align: center;
+    background: linear-gradient(to right, #00C1B5 250px , #1D1C1C 0%);
+    width: 70%;*/
 }
 
 
@@ -84,7 +78,7 @@ p {
 }
 
 .myinfo h2 {
-    padding: 0px 30px 20px;
+    /*padding: 0px 30px 20px;*/
     font-family: Montserrat;
     font-size: 25px;
     color: #FFFFFF;
@@ -92,8 +86,17 @@ p {
 
 }
 
-.myinfo p {
-    padding: 00px 30px 20px;
+.myinfo p1 {
+   /* padding: 0px 30px 20px;*/
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+
+}
+
+.myinfo p2 {
+    /*padding: 0px 30px 20px;*/
     font-family: Montserrat;
     font-size: 16px;
     color: #FFFFFF;
