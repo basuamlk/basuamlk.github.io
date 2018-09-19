@@ -58,7 +58,7 @@ p {
 	background-color: red;
 }*/
 
-div#mainpar {
+.mainpar {
 	margin-left: 400px;
     text-align: center;
     width: 70%;
