@@ -11,9 +11,9 @@ body {
     text-align: center;
 }
 
-/*@-ms-viewport{
+@-ms-viewport{
     width: device-width;
-}*/
+}
 
 h1 {
     color: #FFFFFF;
