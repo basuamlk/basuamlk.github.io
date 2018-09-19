@@ -104,6 +104,14 @@ p {
 
 }
 
+.colorCyan {
+    color:#00C1B5;
+}
+
+.colorWhite {
+    color:#FFFFFF;
+}
+
 @media only screen and (min-width: 320px) {
     body {
         background: linear-gradient(#1D1C1C 100%);  
