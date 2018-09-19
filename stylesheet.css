@@ -1,11 +1,11 @@
 
-body {
-    /*width: 4096px;
-    height:2027px;*/
-    /*margin-top: 100px;
+/*body {
+    width: 4096px;
+    height:2027px;
+    margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
-    margin-left: 80px;*/
+    margin-left: 80px;
     
     background: linear-gradient(to right, #00C1B5 250px , #1D1C1C 0%);
     text-align: center;
@@ -21,17 +21,17 @@ h1 {
     font-size-adjust: inherit;
 	font-style: bold;
 	font-size: 3.9vw;
-/*	margin-top: 100px;
-	margin-left:400px;*/
+	margin-top: 100px;
+	margin-left:400px;
 	line-height: 50px;
 	text-align: left;
 }
 
 h2 {
-/*	margin-top: 5px;*/
-    /*margin-bottom: 122px;*/
-/*    margin-right: 150px;
-    margin-left: 410px;*/
+	margin-top: 5px;
+    margin-bottom: 122px;
+    margin-right: 150px;
+    margin-left: 410px;
 	font-family: Montserrat;
 	font-style: regular;
 	font-size: 2.2vw;
@@ -41,10 +41,10 @@ h2 {
 }
 
 p {
-/*	margin-top: 1px;
+	margin-top: 1px;
     margin-bottom: 25px;
     margin-right: 150px;
-    margin-left: 410px;*/
+    margin-left: 410px;
 	font-style: regular;
 	font-size: 1.2vw;
 	line-height: 0px;
@@ -52,7 +52,7 @@ p {
     color: #BBB0B0;
     font-family: Montserrat;
 
-}
+}*/
 
 /*#mainpar{
 	background-color: red;
@@ -66,4 +66,17 @@ p {
 
 .github-icon{
     display: none;
+}
+
+.myinfo{
+    width: 100%;
+}
+
+.myinfo h1{
+    padding: 30px 30px 20px;
+    font-family: Montserrat;
+    font-size: 50px;
+    color: #FFFFFF;
+    line-height: 44px;
+
 }
