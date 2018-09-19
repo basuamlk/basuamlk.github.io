@@ -81,3 +81,12 @@ p {
     line-height: 44px;
 
 }
+
+.myinfo h2{
+    padding: 0px 30px 20px;
+    font-family: Montserrat;
+    font-size: 25px;
+    color: #FFFFFF;
+    line-height: 30px;
+
+}
