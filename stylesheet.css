@@ -59,9 +59,9 @@ p {
 }*/
 
 .mainpar {
-	margin-left: 400px;
-    text-align: center;
-    width: 70%;
+	/*margin-left: 400px;
+    text-align: center;*/
+    width: 100%;
 }
 
 .github-icon{
