@@ -63,3 +63,7 @@ p {
     text-align: center;
     width: 70%;
 }
+
+.github-icon{
+    display: none;
+}
