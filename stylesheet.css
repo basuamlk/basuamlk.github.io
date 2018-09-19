@@ -65,15 +65,19 @@ p {
     width: 70%;
 }
 
-.github-icon{
+.github-icon {
     display: none;
 }
 
-.myinfo{
+.linkedin-icon {
+    display: none;
+}
+
+.myinfo {
     width: 100%;
 }
 
-.myinfo h1{
+.myinfo h1 {
     padding: 30px 30px 20px;
     font-family: Montserrat;
     font-size: 50px;
@@ -82,7 +86,7 @@ p {
 
 }
 
-.myinfo h2{
+.myinfo h2 {
     padding: 0px 30px 20px;
     font-family: Montserrat;
     font-size: 25px;
@@ -91,7 +95,7 @@ p {
 
 }
 
-.myinfo p{
+.myinfo p {
     padding: 00px 30px 20px;
     font-family: Montserrat;
     font-size: 16px;
@@ -101,5 +105,9 @@ p {
 }
 
 .github-icon {
+    width: 100%;
+}
+
+.linkedin-icon {
     width: 100%;
 }
