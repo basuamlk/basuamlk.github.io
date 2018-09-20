@@ -3,7 +3,8 @@ body {
     /*background-color:#00C1B5;*/
     /*background-image: url("icons_images/Rectangle2.png");*/
     /*background-repeat: repeat-y;*/
-    background: linear-gradient(to right, #00C1B5 20% , #1D1C1C 0%), no-repeat;
+    background-color: #1D1C1C;
+    /*background: linear-gradient(to right, #00C1B5 20% , #1D1C1C 0%), no-repeat;*/
     /*text-align: center;*/
     /*background-size: 20% auto;*/
 }
@@ -56,8 +57,9 @@ p {
 	background-color: red;
 }*/
 
+
 .mainpar {
-	margin-left: 20%;
+    margin-left: 20%;
     /*text-align: center;
     background: linear-gradient(to right, #00C1B5 250px , #1D1C1C 0%);
     width: 70%;*/
@@ -68,22 +70,31 @@ p {
     width: 100%;
 }
 
-.myinfo h1 {
+/*.myinfo h1 {
     padding: 30px 30px 20px;
     font-family: Montserrat;
     font-size: 50px;
     color: #FFFFFF;
-    line-height: 44px;
+    line-height: 0px;
 
-}
+}*/
 
 .myinfo h2 {
     /*padding: 0px 30px 20px;*/
     font-family: Montserrat;
     font-size: 25px;
     color: #FFFFFF;
-    line-height: 30px;
+    line-height: 0px;
 
+}
+
+.myinfo {
+    padding: 0px 30px;
+}
+
+.email-link {
+    color: #00C1B5;
+    font: Montserrat;
 }
 
 .myinfo p1 {
@@ -104,15 +115,31 @@ p {
 
 }
 
-.colorCyan {
+.colorCyanHi {
     color:#00C1B5;
+    /*font-size: */
 }
 
-.colorWhite {
+.colorCyanComma {
+    color:#00C1B5; 
+}
+
+.colorWhiteText {
     color:#FFFFFF;
 }
 
-@media only screen and (min-width: 320px) {
+.nameplate-title {
+    padding: 30px 2px;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*@media only screen and (max-width: 380px) {
     body {
         background: linear-gradient(#1D1C1C 100%);  
     }
@@ -120,4 +147,29 @@ p {
 @media only screen and (min-width: 768px) {
  
 
+}*/
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 20%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #00C1B5; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
 }
