@@ -59,8 +59,9 @@ p {
 
 
 .mainpar {
-    margin-left: 25%;
+    margin-left: 26%;
     padding-left:10px;
+    font-size: 28px;
     /*text-align: center;
     background: linear-gradient(to right, #00C1B5 250px , #1D1C1C 0%);
     width: 70%;*/
@@ -156,27 +157,27 @@ p {
 }*/
 
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 25%; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%; 
+    width: 26%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
     left: 0;
     background-color: #00C1B5; 
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 150px;
+    overflow-x: hidden;
+    padding-top: 200px;
 }
 
-/* The navigation menu links */
+
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 4vw;
+    font-size: 20px;
     color: #818181;
     display: block;
 }
 
-/* When you mouse over the navigation links, change their color */
+
 .sidenav a:hover {
     color: #f1f1f1;
 }
