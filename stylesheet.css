@@ -1,23 +1,77 @@
 body {
-    /*height: 100%;*/
     /*background-color:#00C1B5;*/
-    /*background-image: url("icons_images/Rectangle2.png");*/
-    /*background-repeat: repeat-y;*/
-    background-color: #1D1C1C;
+    /* background-image: url("icons_images/nebula_stars.jpg"); */
+    /* background-color: #1D1C1C; */
+    /* margin: 0;
+    padding: 0;
+    height: 100vh; */
+}
+
+html ::before { 
+    content: "";
+    position: fixed;
+    left: -5%;
+    right: -5%;
+    top: -5%;
+    z-index: -1;
+  background: url('icons_images/nebula_stars.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
     margin: 0;
     padding: 0;
-    height: 100vh;
-    /*background: linear-gradient(to right, #00C1B5 20% , #1D1C1C 0%), no-repeat;*/
-    /*text-align: center;*/
-    /*background-size: 20% auto;*/
+    height: 110%;
+    width: 110%;
 }
+
+/*body ::before {
+    content: "";
+    position: fixed;
+    left: -5%;
+    right: -5%;
+    top: -5%;
+    z-index: -1;
+    
+    
+    background-image: url('icons_images/nebula_stars.jpg') ;
+   
+    margin: 0;
+    padding: 0;
+    height: 110%;
+    width: 110%;
+    
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}*/
+
 #particles-js {
     height: 100%;
-    background: #1D1C1C; 
+    /* background: #1D1C1C;  */
+}
+
+.autobio {
+    
+    font-family: 'Source Sans Pro';
+    font-size: 1.3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -110px 100px -100px -110px;
+    
 }
 
 .panel {
-    display: flex;
+    /* background-color: #818181; */
+    overflow: auto;
     font-family: 'Source Sans Pro';
     font-size: 1.3em;
     position: absolute;
@@ -34,6 +88,7 @@ body {
     box-sizing: border-box;
     z-index: 100;
 }
+
 
 /*.panel h1 {
     font-size: 1.8em;
