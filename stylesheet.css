@@ -7,6 +7,7 @@ body {
     height: 100vh; */
 }
 
+
 html ::before { 
     content: "";
     position: fixed;
@@ -57,6 +58,19 @@ html ::before {
     height: 100%;
     /* background: #1D1C1C;  */
 }
+.button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-secondary {
+    background: rgb(0, 193, 181); /* this is a light blue */
+}
+
+/* .button{
+    background: rgb(0, 193, 181);
+} */
 
 .autobio {
     
@@ -170,6 +184,7 @@ html ::before {
 .colorWhiteText {
     color:#FFFFFF;
 }
+
 
 /*.nameplate-title {
     padding: 30px 2px;
