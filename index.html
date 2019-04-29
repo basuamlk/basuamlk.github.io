@@ -1,86 +1,363 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Basu Woldatsadik | Portfolio</title>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-<!-- <meta name=”viewport” content=”width=device-width, initial-scale=1″> -->
-</head>
-<script>
-	var host = "basuamlk.github.io";
-	var host2 = "basuamlk.me";
-if (window.location.host == host && window.location.protocol != "https:") {
+
+  <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125051144-1"></script>
+<script>var host = "tigeryassin.github.io";
+	var host2 = "yassinit.me";
+if (window.location.host t== host && window.location.protocol != "https:") {
   window.location.protocol = "https:"
-}
-</script>
-<body>
-<!-- <div class = "panel"> -->
-	<div class="mainpar">
-	<section class = "resume-selection" id = "about">
-		<div class = "autobio">
-	 <h1 = class = "nameplate-title">
- 	<!-- <span class ="color:#00C1B5;">Hi</span> <span class="color:#FFFFFF;">I'M BASU WOLDATSADIK</span> <span style = "color:#00C1B5;">,
- 	</span> -->
- 	<div class = headingFont>
- 	<span class ="colorCyanHi">Hi</span> <span class="colorWhiteText">I'M BASU WOLDATSADIK</span><span class = "colorCyanComma">,</span>
- </div>
- 	
-
- 	<!-- <span class ="color:#00C1B5;">Hi</span> I'M BASU WOLDATSADIK<span style = "color:#00C1B5;">,
- 	</span> -->
- </h1>
-	 <div class="myinfo"> 
-<h2>Software Engineer.</h2>
-<p1>(678) 559-6126 · <a class="email-link" href="mailto:bhwoldatsadik@gmail.com">bhwoldatsadik@gmail.com</a></p1>
-	<!-- <p> Where to contact me</p> -->
-	<br>
-	<a  href = "https://drive.google.com/file/d/1NS4fn0ExoRsD4wsmebsbydKuyfWHkXFj/view?usp=sharing" target = "_blank">
-	<button class="button-secondary pure-button" >Resume</button>
-</a>
-
-	<p2>Click below to contact me
-</p2>
-</div>
-
-<div class = social-medias>
-	<a href="https://www.github.com/basuamlk" target="_blank">
-	<img class="github-icon" align = "middle" src="icons_images/github_icon.png" alt = "Github Icon" height="42" width="42">
-	</a>
-
-	<a href="https://www.linkedin.com/in/bhwoldatsadik/" target="_blank">
-	<img class="linkedin-icon" align ="middle" src="icons_images/LinkedIN.png" alt ="LinkedIN Icon" height="42" width="42">
-	
-</div>
-</a>
-</div>
-</section>
-
-</div>
-<!-- </div> -->
-<div id ="particles-js"></div>
-<script src = "particles.js"></script> 
-<script src="app.js"></script>
-	<!-- <div class ="sidenav">
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-</div> -->
-
-
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126648409-1"></script>
+}</script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-126648409-1');
+  gtag('config', 'UA-125051144-1');
 </script>
 
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title> Basu's Home</title>
+    <link rel="shortcut icon" href="https://commkit.gsu.edu/wp-content/themes/gsu-core/favicon.ico">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1500, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 80;
+    document.documentElement.scrollTop = 80;
+}
+</script>
+
+        <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+
+
+  </head>
+
+<!--BODY-->
+
+
+<body style="background-color: #454545 ">
+
+
+  <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand">Basu Woldatsadik</a>
+      </div>
+    </nav>
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/gsuwalking.JPG')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1>Welcome, </h1>
+              <span class="subheading">To A Website Displaying who I am</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+<!-- extra libraries-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+
+<nav class="navbar navbar-light bg-light">
+  <form class="form-inline">
+    <a target="#" href="https://drive.google.com/file/d/1NS4fn0ExoRsD4wsmebsbydKuyfWHkXFj/view?usp=sharing"><button class="btn btn-light" type="button">Resume</button></a>
+    <a target="#" href="https://lnkd.in/e3YY7S4"><button type="button" class="btn btn-light">CourseWork</button></a>
+    <a target = "#" href= "https://sites.gsu.edu/bwoldatsadik1"><button type="button" class="btn btn-light">BLOG</button></a>
+  </form>
+</nav>
+
+
+    <!-- Main Content -->
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><div class="glyphicon glyphicon-hand-up"></div></button>
+
+
+
+    <!-- About Section -->
+    <section class="text-white mb-0" id="about">
+      <div class="container" style="background-color: #00ba9c; border-radius: 10px">
+        <h2 class="text-center text-uppercase text-white">About Me</h2>
+        <hr class="star-light mb-5">
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead" style="text-align: center"><strong style="color: white">&quot</strong>Basu Woldatsadik is a studious <strong style="color: white">STUDENT</strong> pursuing his bachelor’s in Computer Science. A passionate <strong style="color: white">LEADER</strong> in his craft by being able to manage any team he&#39s placed in. And an empathetic <strong style="color: white">FRIEND</strong> to anyone who wants a helping hand.<strong style="color: white">&quot</strong></p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead" style="text-align: center">I'm a Software Developer and a student attending Georgia State University majoring computer science. I have relative background experience coding in Java, Node JS, and Python. I am looking to polish my skills for a future career in Software Development. Some of my interests are Neural Networking and Computer Vision. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Portfolio</h3>
+          <h2 class="mb-5"><strong style="color: white">Projects</strong></h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" target = "#" href="https://github.com/basuamlk/ChaseInPositivity">
+              <span class="caption">
+                <span class="caption-content">
+                  <h4>ChaseInPositivity</h4>
+                  <p class="mb-0">Project to increase retention for the &quotBe Positive&quot non-profit Organization.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" target="#" href="https://github.com/basuamlk/AstroPlot">
+              <span class="caption">
+                <span class="caption-content">
+                  <h4>AstroPlot</h4>
+                  <p class="mb-0">Plotted the movement of Mars in space.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" target = "#" href="https://github.com/basuamlk/GROOT">
+              <span class="caption">
+                <span class="caption-content">
+                  <h4>GROOT</h4>
+                  <p class="mb-0">A SMART Grocery Shopping Website.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" target = "#" href="https://github.com/basuamlk/GrootCHAT">
+              <span class="caption">
+                <span class="caption-content">
+                  <h4>GrootCHAT</h4>
+                  <p class="mb-0">GrootCHAT allows friends to chat with each other wheverever they are whenever.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- HIRE ME SECTION-->
+
+
+<br style="line-height: 900%">
+<!-- Second Header -->
+    <header class="masthead" style="background-image: url('img/rialtorain.JPG'); height: 450px" id="HireMe">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>Contact</h1>
+              <span class="subheading">If you have any inquiries please message me below</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+<!-- second content-->
+
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p><strong style="color: white">Fill out the form below to send me a message and I will get back to you as soon as possible!</strong></p>
+          <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+          <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+          <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+          <form name="sentMessage" novalidate>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name." style="background-color: white; border-radius: 30px; text-align: center">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>Email Address</label>
+                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address." style="background-color: white; border-radius: 30px; text-align: center">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+              <label>Phone Number</label>
+                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number." style="background-color: white; border-radius: 30px; text-align: center">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>Message</label>
+                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message." style="background-color: white; border-radius: 30px; text-align: center"></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <br>
+            <div id="success"></div>
+            <div class="form-group">
+            </div>
+          </form>
+      <button class="btn btn-primary" id="sendMessageButton" onclick="clicked()">Send!</button>
+        </div>
+      </div>
+    </div>
+
+                <br>
+                <br>
+                <p class="col-lg-1"></p>
+                <p class="col-lg-9" style="font-size: 17px; text-align: center; color: white;">"The first principle is that you must not fool yourself - and that you are the easiest person to fool." - Richard Feynman</p>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+    <hr>
+    <!-- Footer -->
+    <footer>
+      <div align= middle>
+        <iframe width="200" height="100" src="https://lottiefiles.com/iframe/2519-maps" frameborder="0" ></iframe>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="#" href="https://www.linkedin.com/in/bhwoldatsadik">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="#" href="https://github.com/basuamlk">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="text-muted" style="text-align: center">Copyright &copy; Shine</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+
+
+
+<script type="text/javascript" src="js/firebase.js"></script>
+
 </body>
+
+
+
+
+
 </html>
