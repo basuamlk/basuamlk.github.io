@@ -1,7 +1,8 @@
+import apikey from 'api_key';
 
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyDPdjVIhky5SOQgOGKMq_l9Pqebyfwj8-U",
+    apiKey: apikey,
     authDomain: "personalwebsite-c4e5e.firebaseapp.com",
     databaseURL: "https://personalwebsite-c4e5e.firebaseio.com",
     projectId: "personalwebsite-c4e5e",
